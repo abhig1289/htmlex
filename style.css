@@ -1,12 +1,17 @@
-
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
 .greendiv{
     color:olivedrab;
 }
 #htmldemo{
     color:red;
     height: 50px;
-    width: 140px;
-    background-color: rgb(214, 111, 38);
+    width: 440px;
+    background-color: rgb(192, 206, 226);
+    font-size: larger;
+    font-weight: 500;
+    
 }
 
 /* multi
