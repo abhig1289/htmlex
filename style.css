@@ -27,12 +27,7 @@ comment
    border: 2px solid springgreen;
 }
 
-#parent     {
-    color: rgb(23 122 180);
-     height: 120px;
-     width: 140px;
-   border: 2px solid springgreen;
-}
+
 
 #child    {
     color: red;
@@ -40,3 +35,51 @@ comment
      width: 100px;
    border: 2px solid springgreen;
 }
+
+
+#cssfixedproperty{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(122, 12, 12);
+
+}
+#cssrelativeproperty{
+    position: relative;
+    top:100px;
+    left:100px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(88, 161, 209);
+
+}
+
+#parent     {
+    position:relative;
+    color: rgb(23 122 180);
+     height: 220px;
+     width: 240px;
+     bottom: 0;
+     
+   border: 6px solid rgb(9, 150, 79);
+}
+
+#cssabsoluteproperty{
+    position:absolute;
+    top:10px;
+    left:20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 88, 20);
+}
+#cssstickyproperty{
+    position:sticky;
+    top:100px;
+    left:120px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(76, 14, 248);
+}
+
