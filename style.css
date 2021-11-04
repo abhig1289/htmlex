@@ -5,13 +5,13 @@ html{
     color:olivedrab;
 }
 #htmldemo{
-    color:red;
+    display: inline-block;
+    color:rgba(146, 56, 56, 0.459);
     height: 50px;
     width: 440px;
-    background-color: rgb(192, 206, 226);
+    background-color: rgb(103, 142, 196);
     font-size: larger;
-    font-weight: 500;
-    
+    font-weight: 950; 
 }
 
 /* multi
@@ -22,8 +22,8 @@ comment
 
 #root     {
     color: red;
-     height: 150px;
-     width:240px;
+     height: 300px;
+     width:300px;
    border: 2px solid springgreen;
 }
 
@@ -31,8 +31,8 @@ comment
 
 #child    {
     color: red;
-     height: 60px;
-     width: 100px;
+     height: 210px;
+     width: 210px;
    border: 2px solid springgreen;
 }
 
@@ -43,12 +43,17 @@ comment
     right: 0px;
     width: 100px;
     height: 100px;
-    background-color: rgb(122, 12, 12);
+    background-color: rgb(235, 190, 190);
 
 }
+
+
+
+
+
 #cssrelativeproperty{
     position: relative;
-    top:100px;
+    top: 100px;
     left:100px;
     width: 100px;
     height: 100px;
@@ -56,24 +61,31 @@ comment
 
 }
 
-#parent     {
-    position:relative;
-    color: rgb(23 122 180);
-     height: 220px;
-     width: 240px;
-     bottom: 0;
-     
-   border: 6px solid rgb(9, 150, 79);
-}
 
+
+
+#parent     {
+    position:fixed;
+    color: rgb(23 122 180);
+     height: 240px;
+     width: 240px;
+     bottom: 0px;
+   border: 6px solid rgb(121, 128, 124);
+}
 #cssabsoluteproperty{
     position:absolute;
-    top:10px;
+   top: 30px;
     left:20px;
     width: 100px;
     height: 100px;
-    background-color: rgb(235, 88, 20);
+    background-color: rgb(231, 231, 231);
 }
+
+
+
+
+
+
 #cssstickyproperty{
     position:sticky;
     top:100px;
