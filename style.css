@@ -107,7 +107,7 @@ comment
 
 
 a:link{
-    colour:red;
+    color:rgb(172, 23, 23);
 
 }
 a:visited{
@@ -153,4 +153,36 @@ div :first-child {
     box-shadow: 4px 4px 2px 4px rgb(207, 224, 223);               
 
 }
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin: 50px;
+    /* transition-duration:3s;
+    transition-property: background-color , width;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+     transition:red 2s ease-in 1s;
+
+    transform: rotate(45deg); */
+    border-top-right-radius:  15px; 
+    transition: transform 1s, background-color;
+   
+}
+
+#box:hover{
+    background-color: rgba(27, 65, 15, 0.904);
+    /* width:200px; */
+   transform: rotate(45deg) scale(2,3);
+
+}
+
+
+
+.bootstrap-button{
+    background-color: rgb(241, 24, 53);
+}
+
+
 
