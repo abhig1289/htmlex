@@ -1,0 +1,46 @@
+/* p{
+    font-size: x-large;
+} */
+
+/*
+ @media only screen and (max-width:576px){
+    p{
+        font-size:50px;
+        color:rgb(58, 145, 97);
+    }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+    p{
+        font-size:80px;
+        color:rgb(23, 15, 136);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    p{
+        font-size:100px;
+        color:rgb(22, 22, 6);
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    p{
+        font-size:120px;
+        color:rgb(216, 25, 168);
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    p{
+        font-size:180px;
+        color:yellowgreen;
+
+    }
+} 
+*/
+/*  >320px and <576px - xs
+    >=576px and <768px - sm
+    >=768px and <992px - md
+    >=992px and <1200px - lg
+    >1200px xl
+*/
