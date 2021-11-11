@@ -8,28 +8,37 @@
 
 
 #rohit{
-    height: 100vh;
-    width: 100%;
+        height: 100vh;
+        width: 100%;
         color: rgb(209, 209, 209);
-        background-image: url(../rohit.jpeg);
+        background-image: url(../sharma.jpg);
         background-size: cover;
         background-position-x: center;
-        
         font-family: cursive;
-    
 }
 #sharma{
-    font-size: 40px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
     font-weight: bolder;
     color: deepskyblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    border:2px solid rgb(133, 124, 124);
+    border-radius: 30px;
+
+
 
 }
-#sharma{
-    font-size: 20px;
-    font-weight: inherit;
-    color: rgb(47, 0, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+#achievements{
+    margin: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: deepskyblue;
 }
 
 
@@ -44,7 +53,6 @@
     left:100px;
     position:fixed;
 }
-
 
 
 
