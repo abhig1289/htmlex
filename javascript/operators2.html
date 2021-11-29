@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operators 2 statement</title>
+</head>
+<body bgcolor="lightyellow">
+    <center><h1>relational statements in JavaScript</h1>
+
+
+     <script>
+       var x=93;
+       var y=36;
+       var z=65;
+       if(x==y){
+           document.write("true <br/>");
+       }
+       else{
+           document.write("false <br/>");
+       }
+
+
+       if(x!=y){
+            document.write("true <br/>");
+        }
+        else{
+            document.write("false <br/>");
+        }
+
+
+        if(x<=y){
+            document.write("true <br/>");
+        }
+        else{
+            document.write("false <br/>");
+        }
+
+
+
+        if(x>=y){
+            document.write("true <br/>");
+        }
+        else{
+            document.write("false <br/>");
+        }
+
+
+
+        //and operator
+        if(x>y & x>z){
+            document.write("X greater than Z and Y");
+        }
+        else if(x>y & z>x){
+            document.write("Z greater than X and Y ");
+        }
+        else {
+            document.write("Y greater than X and Z");
+        }
+
+
+
+        //or operator
+        var fname="abhi"
+        var sname="lash"
+        if(fname=="abhi" | sname=="ram"){
+            document.write("<br/>  Welcome");
+        }
+
+
+
+        //Xor operator
+        var fname="abhi"
+        var sname="lash"
+        if(fname=="abhi" ^ sname=="ram"){
+            document.write("<br/>  Welcome");
+        }
+        
+
+         //&& operator
+         if(x>y && x>z){
+            document.write("<br/> X greater than Z and Y");
+        }
+        else if(x>y && z>x){
+            document.write("<br/> Z greater than X and Y ");
+        }
+        else {
+            document.write("<br/> Y greater than X and Z");
+        }
+     
+    </script>
+    <br/>
+     
+    </center>
+</body>
+</html>

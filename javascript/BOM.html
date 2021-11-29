@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Object Model in JavaScript</title>
+</head>
+<body bgcolor="lightyellow" text="brown">
+    <center>
+        <h1>Browser Object Model in JavaScript</h1>
+        <span id="abhi"></span>
+        <script>
+           
+            
+            window.confirm("confirm a Webpage!!!");
+            
+            var x=window.prompt("who are you!!!");
+            document.write(x);
+
+            function myfunction(){
+            window.open("http://www.google.com");
+        }myfunction()
+        // window.close();
+      
+        function myfun1(){
+        var w=window.innerWidth;
+        var h=window.innerHeight;
+        document.getElementById("abhi").innerHTML= w+" x "+h;
+      setInterval("myfun1()",3000);
+  }myfun1()
+      
+
+  function myFunc(){
+                window.alert("What a Webpage!!!");
+            }setTimeout(myFunc,3000)
+            
+            
+        </script>
+        <input type="button" value="Google" onclick="myfunction()">
+    </center>
+</body>
+</html>

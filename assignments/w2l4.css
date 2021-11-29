@@ -1,0 +1,78 @@
+/* w2l4 */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 35px;
+    width: 100vw;
+    color: rgb(245, 238, 238);
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    position:fixed;
+    font-family: cursive;
+    font-size: x-large;
+  
+}
+.container header{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color:white;
+}
+ 
+.navbar{
+    position: absolute;
+   color: lightgray;
+   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    margin-left: 0;
+    height: 40px;
+    width: 100%;
+   display: flex;
+   align-items: center;
+}
+
+nav{
+ flex: 1;
+ padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 1px;
+    list-style: none;
+    margin:0px 3px;
+    border-radius: 10px;
+    
+}
+nav ul li a{
+    color: rgb(202, 39, 39); 
+    font-size: 20px;
+      
+}
+nav ul li a:hover{
+    background: #f9004c;
+    box-sizing: border-box;
+   
+    border-color: khaki;
+    color: #f9004c;
+    transition-duration: 0s;
+}
+
+nav ul li a:visited{
+    
+    color: rgb(24, 6, 14);
+}
+.content{
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 30px;
+    width:100%;
+}
+
+.ceo{
+    display:flex;
+    align-items: center;
+}
+
+

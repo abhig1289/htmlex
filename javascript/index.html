@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js">//external js
+    </script>
+    <br/>
+    <!-- head js -->
+    <script type="text/javascript" >
+        document.write("head tag javascript program")
+    </script>
+    <br/>
+</head>
+<body bgcolor="yellow" text="grey">
+    <a href="variable.html">variables page</a>
+    <!-- body js -->
+    <p id="demo">WELCOME FRIENDS</p>
+    <script type="text/javascript" >
+        document.write("body tag javascript program")
+     /*writing content using document write and innerhtml tag*/
+        document.getElementById("demo").innerHTML="PROGRAMMING LANGUAGE";
+
+     
+            function  goBack(){
+                history.back();
+            }
+            function  goForward(){
+                history.forward();
+            }
+    </script>
+    <input type="button" value="Back" onclick="goBack();"/>
+        <input type="button" value="forward" onclick="goForward();"/>
+</body>
+</html>

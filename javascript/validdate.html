@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation in JavaScript</title>
+</head>
+<body>
+    <center>
+      
+        <h1>Validation in JavaScript</h1>
+    <form name="myform" methods="post" onsubmit="return validdate()" action="variable.html">
+        Enter your DOB: <input type="date" name="date1"required>
+        <br/>
+        <input type="submit" value="validate">
+    </form>
+    <script>
+         var curdate= new Date();
+         var dob2=new Date(document.myform.date1.value);
+         if(dob2>curdate){
+             alert("please enter a valid date")
+             return false;
+         }
+     
+    </script>
+    </center>
+</body>
+</html>

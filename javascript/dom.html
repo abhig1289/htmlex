@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model in JavaScript</title>
+</head>
+<body bgcolor="skyblue" text="yellow">
+    <center>
+        <h1 style="color: rgb(69, 75, 74);">
+           DOM (Document Object Model) in JavaScript
+        </h1>   
+        
+        <script>
+            document.write("Abhilash")
+            function getcube(){
+                var num=document.getElementById("number").value;
+                alert("the cube of "+ num+ "="+ num*num*num);
+            }   
+        </script>  
+        <form>
+            Enter num: <input type="text" id="number"/>
+            <br/>
+            <input type="button" value="Find cube" onclick="getcube();">
+        </form>
+   <br/><br/><br/><br/><br/>
+
+
+
+    <script>
+        function printvalue(){
+            var name1=document.form1.urname.value;
+            alert("Welcome "+ name1);
+        }            
+    </script>
+    <form name="form1">
+        Enter num: <input type="text" name="urname" />
+        <br/>
+        <input type="button" value="Print " onclick="printvalue();">
+    </form>
+
+
+    </center>
+    
+</body>

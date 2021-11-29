@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email Validation in JavaScript</title>
+</head>
+<body>
+    <center>
+      
+        <h1> email Validation in JavaScript</h1>
+    <form name="myform" methods="post" onsubmit="return validemail()" action="variable.html">
+        
+        <!-- enter your mail:   <input type="name" name="email1"> -->
+        enter your mail:   <input type="email" name="email1"required>
+        <br/>
+        <br/>
+         <input type="submit" value="validate">
+    </form>
+    <script>
+           
+        
+        function validemail(){
+            var email2= document.myform.email1.value;
+            // var atposition= email2.indexof(@)
+            // var dotposition= email2.indexof(.)
+            if(password.length<6){
+                alert("Password must contain atleast 6 characters");
+                return false;
+            }
+                    if(atposition<1||dotposition2<atposition+2||dotposition+2>=email2.length){
+                        alert("please enter valid email");
+                return false;
+            }else{
+                
+                return true;
+            }
+        }
+     
+    </script>
+    </center>
+</body>
+</html>

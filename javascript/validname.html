@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation in JavaScript</title>
+</head>
+<body>
+    <center>
+        <h1>Validation in JavaScript</h1>
+        <form name="myform" method="post" action="variable.html"  onsubmit="return validname()" >
+            Your Name : <input type="text" name="name1" pattern="[a-zA-Z ]{2,}" title="please enter only title">
+            <br/><br/>
+            <input type="submit" value="Click here"><br/>
+        </form>
+
+   
+    <script>
+           function validname(){
+            var nam = document.myform.name1.value;
+           
+            if(nam=="" || nam=="null"){
+                alert("please provide crct name");
+                return false;
+            }
+            else{
+                return true;
+            }
+            
+        }
+       
+     
+    </script>
+   
+</center>
+</body>
+</html>

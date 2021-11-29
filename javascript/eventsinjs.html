@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JavaScript</title>
+</head>
+<body onload="event8()" >
+    <center >
+        <h1>Events in JavaScript</h1>
+        <p id="p1"></p>
+        <input type="button" value="Click here" onclick="event1()"><br/><br/><br/>
+        <input type="button" value="Click here2" ondblclick="event2()"><br/><br/><br/>
+        <input type="button" value="Click here3" onmouseover="event3()"><br/><br/><br/><br/>
+        <input type="button" value="Click here4" onmouseout="event4()"><br/><br/><br/>
+        <input type="text" value="Click here5" onfocus="event5()"><br/><br/><br/>
+     
+        <input type="text" value="Click here6" onblur="event6()"><br/><br/><br/>
+        <input type="text" value="Click here7" onchange="event7()"><br/><br/><br/>
+        <form onsubmit="event9()" onreset="event10()">
+            <input type="text" name="name1">
+            <input type="submit" name="SUBMIT" value="submit">
+            <input type="reset" name="RESET" value="RESET">
+        </form>
+        <script>
+            function event1(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onclick";
+            }
+            function event2(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash ondblclick ";
+            }
+            function event3(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onmouseover ";
+            }
+            function event4(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onmouseout ";
+            }
+            function event5(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onfocus ";
+            }
+            function event6(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onblur ";
+            }
+            function event7(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onchange ";
+            }
+            function event8(){
+                document.getElementById("p1").innerHTML= Date();
+            }
+            function event9(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onsubmit ";
+            }
+            function event10(){
+                document.getElementById("p1").innerHTML="Hello welcome abhilash onreset ";
+            }
+        </script>
+    </center>
+    
+</body>
+</html>

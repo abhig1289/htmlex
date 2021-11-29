@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Browser Object Model in JavaScript</title>
+</head>
+<body bgcolor="brown" text="yellow">
+    <center>
+        <h1>
+            History  Browser Object Model in JavaScript
+        </h1> Welcome to First Webpage<br/><br/><br/>
+        <a href="index.html">Index page</a>
+        <script>
+            function  goBack(){
+                history.back();
+            }
+            function  goForward(){
+                history.forward();
+            }
+        </script>
+        <input type="button" value="Back" onclick="goBack();"/>
+        <input type="button" value="forward" onclick="goForward();"/>
+    </center>
+    
+</body>
+</html>

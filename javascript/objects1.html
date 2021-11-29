@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects in JavaScript</title>
+</head>
+<body bgcolor="yellow" text="blue">
+    <center><h1>objects in JavaScript</h1>
+        <!-- storing values of different datatypes in a single entity -->
+        <!-- object literals -->
+     <script>
+         var stu1 = { rno:101, name:"abhilash" , branch:"ECE" }
+         document.write(stu1.rno + " " + stu1.name + " " + stu1.branch + " ")
+    </script>
+    <br/>
+     <!-- object directly -->
+    <script>
+        
+        var emp=new Object();
+      emp.id=222;
+      emp.name="abhi";
+      emp.salary=50000;
+      document.write(emp.id + " " + emp.name + " " + emp.salary);
+        
+     </script>
+<br/> <!-- object construction -->
+     <script>
+         function student(rno,name,address,branch){
+            this.rno=rno;
+            this.name=name;
+            this.address=address;
+            this.branch=branch;
+         }
+         var stu1=new student(10,"abhi","warangal","ECE");
+         document.write(stu1.rno + " " + stu1.name + " " + stu1.address + " "+ stu1.branch + " ");
+     </script>
+        
+
+    </center>
+</body>
+</html>
+
+
+

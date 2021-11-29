@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date and time statement</title>
+</head>
+<body bgcolor="lightblue" text="red">
+    <center><h1>date and time  in JavaScript</h1>
+
+    <!-- date and time-->
+     <script>
+        var today=new Date();
+        var day=today.getDate();                //first()    firstSecond()
+        var month=today.getMonth()+1;
+        var year=today.getFullYear();           //getFullYear()
+        var hour=today.getHours();
+        var min=today.getMinutes();
+        var sec=today.getSeconds();
+        document.write(day + "/" +  month + "/" + year +"<br/>"+ hour+":"+min+":"+sec);
+    </script>
+
+
+
+<br/><br/><br/><br/><br/><br/>
+    <!-- Recurring date and time-->
+    <span id="abhi"></span>
+    <script>
+        function getTime(){
+      var today=new Date();
+      var day=today.getDate();                //first()    firstSecond()
+      var month=today.getMonth()+1;
+      var year=today.getFullYear();           //getFullYear()
+      var hour=today.getHours();
+      var min=today.getMinutes();
+      var sec=today.getSeconds();
+      document.getElementById("abhi").innerHTML= day + "/" +  month + "/" + year + "<br/>"+  hour+ ":"+ min + ":" + sec;
+      setInterval("getTime()",1000);
+  }getTime()
+  </script>
+
+    </center>
+</body>
+</html>
