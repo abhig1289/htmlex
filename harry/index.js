@@ -8,7 +8,7 @@ age = 10; // assign
 var nation = 'india' // 1ex1000
 nation = 'indi' // 1ex5000
 
-nation = 'usa' // 1ex3000
+nation = 'usa' // 1ex3000     //copy by value
 
 var nation = 'cananda'
 
@@ -50,40 +50,46 @@ const person3 = 'HARISH';
 // 1. var is a functional scope
 // 2. let and const are block scopes
 
-var myName = 'ABHILASH'
+var myName = 'ABHILASH';
 
 
 function sayName(){
     var myName = 'GUJJETI' // myName is function scope. it wont come out of function
-    myName = 'kjdfkd'
-    console.log(myName)
+    myName = 'infotech';
+    console.log(myName);
+    var teach1='harry'; 
+    console.log(teach1);
 }
 
 sayName()
+// console.log(teach1);
 console.log(myName)
 
+let myAge = 210;
 
 if(1){
+    
     let myAge = 20;
-    const myNation = 'india'
-    console.log(myAge)
-    console.log(myNation)
+    const myNation = 'india';
+    console.log(myAge);
+    console.log(myNation);
+    console.log(myName);
 }
 
 
 // console.log(myAge)
 // console.log(myNation)
 
-var items  = [1,2,3,4]
+var items  = [1,2,3,4];
 
 for(var item of items){
-    console.log(item)
+    console.log(item);
 }
 
 
 
-console.log(name.length) // property
-console.log(name.toUpperCase()) // method
+console.log(name.length); // property
+console.log(name.toUpperCase()); // method
 
 
 // ---------------IMMUTABLE-----------------
@@ -114,7 +120,8 @@ console.log(user)
 
 
 var newUser = user; // 1R1000
-user.age = 20;
+console.log(user)
+user.age = 200;
 
 console.log(newUser)
 
@@ -155,7 +162,7 @@ var arr = [1, 2, 3, 4, 5]
 // arr.shift() // removes element of first index
 console.log(arr)
 
-var obj = { name: 'ABHILASH' } 
+var obj = { name: 'SHASHANK' } 
 
 console.log(obj)
 
@@ -169,9 +176,11 @@ function getTotalAmount(bill){ // function declaration
 var totalAmount1 = getTotalAmount(100)
 var totalAmount2 = getTotalAmount(200)
 var totalAmount3 = getTotalAmount(300)
+console.log(totalAmount1);
+console.log(totalAmount2);
+console.log(totalAmount3);
 
-
-const profit = totalAmount1 + totalAmount2 + totalAmount3
+const profit = totalAmount1 + totalAmount2 + totalAmount3;
 
 console.log(profit)
 
@@ -181,20 +190,20 @@ console.log(profit)
 
 
 
-// function func(cb){
-//     cb()
-// }
+function func(cb){
+    cb()
+}
 
 
-// function anony(){
-//     console.log('this is anonymouse function')
-// }
+function anony(){
+    console.log('this is anonymouse function')
+}
 
-// func(anony)
+func(function(){})
 
-
-// [1,2,3,4,5]
+[1,2,3,4,5]
 arr.forEach(function(ele, i, arr){
+  
 console.log(ele, i, arr)
 })
 
@@ -203,8 +212,16 @@ var arr2 = [ ...arr1, 3,4]
 
 var obj1 = { name: 'harish' }
 var obj2 = { ...obj1, age: 10}
+console.log(arr1)
+console.log(arr2)
+console.log(obj1)
+console.log(obj2)
 
+arr2 =['abhi','akhil','akash'];
+console.log(arr2)
 // for in for objects
 // Object.keys
 // Object.values
 // Object.entries
+
+
